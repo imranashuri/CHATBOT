@@ -47,22 +47,22 @@ It uses st.session_state to store conversation history temporarily in the comput
 7. How It Works (System Workflow)
 
 1.	User Input:
-2.
-3.	  The user types a question into the Streamlit chat box.
   
-4.	API Request:
-5.
-6.	Python sends this prompt to the Google Gemini 1.5 Flash model.
+     The user types a question into the Streamlit chat box.
   
-7.	AI Response:
-8.
-9.	The model processes the query and sends back a response.
+2.	API Request:
   
-10.	Instant Display:
-11.
-12.	Streamlit renders the response in a chat-bubble format for the user.
+	Python sends this prompt to the Google Gemini 1.5 Flash model.
+  
+3.	AI Response:
+  
+	The model processes the query and sends back a response.
+  
+4.	Instant Display:
+   
+	Streamlit renders the response in a chat-bubble format for the user.
 
-13. Key Features
+8. Key Features
 •	High-Speed Performance:
 
 Powered by the Flash version of Gemini for near-instant replies.
@@ -79,7 +79,7 @@ A modern, minimalist design that works on both mobile and desktop.
 
 All chat history is wiped clean the moment the page is refreshed or closed.
 
-10. Why No Database?
+9. Why No Database?
 We intentionally avoided using a database (like SQL) to focus on:
 
 •	Data Privacy:
@@ -94,7 +94,7 @@ Without database overhead, the app stays lightweight and responds faster.
 
 It makes the application easier to deploy and maintain without extra hosting costs.
 
-12. Technology Stack
+10. Technology Stack
 
 •	Programming Language:   Python
 
